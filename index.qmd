@@ -1,0 +1,24 @@
+---
+title: "Democratizing Access to Education Data"
+author: "Erika Tyagi"
+format: 
+  revealjs:
+    menu: false 
+    slide-number: true 
+    incremental: true
+    embed-resources: true
+    theme: urbn.scss    
+    logo: images/urban-institute-logo-2.png
+    footer: <https://educationdata.urban.org> 
+    include-after-body: format-title-page.html
+title-slide-attributes: 
+  data-background-image: images/urban-institute-logo-1.png
+  data-background-size: 25%
+  data-background-position: 2% 90%
+---
+
+## Slide 1
+
+
+## Slide 2 
+
