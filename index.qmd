@@ -1,24 +1,194 @@
 ---
 title: "Democratizing Access to Education Data"
+subtitle: "With the Urban Institute's Education Data Portal"
 author: "Erika Tyagi"
 format: 
   revealjs:
     menu: false 
-    slide-number: true 
-    incremental: true
     embed-resources: true
     theme: urbn.scss    
     logo: images/urban-institute-logo-2.png
     footer: <https://educationdata.urban.org> 
     include-after-body: format-title-page.html
 title-slide-attributes: 
-  data-background-image: images/urban-institute-logo-1.png
-  data-background-size: 25%
-  data-background-position: 2% 90%
+    data-background-image: images/urban-institute-logo-1.png
+    data-background-size: 25%
+    data-background-position: 2% 91%
 ---
 
-## Slide 1
+## What is the Education Data Portal? 
 
+* A freely available one-stop-shop for all major datasets released by government agencies on U.S. schools, school districts, and colleges. 
+* A tool that bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>** in the education space. 
 
-## Slide 2 
+## What do I mean by the <br> availability-accessibility gap? 
 
+**<span style="color:#1696d2;">Example: Collecting data on COVID in jails and prisons</span>**
+
+::: {style="font-size: 60%"}
+
+* An Excel spreadsheet...  
+* Scanned as a PDF... 
+* At an angle...
+* And a little blurry... 
+* With inconsistent rows and columns... 
+* And dark text on a dark background... 
+* And the occasional coffee spill...  
+
+:::
+
+**<span style="color:#1696d2;">Accessible to whom?</span>**
+
+## How does the portal bridge the availability-accessibility gap? 
+
+**<span style="color:#1696d2;">How has tuition at my alma mater changed since the 90s?</span>**
+
+---
+
+**How has tuition at my alma mater changed since the 90s?**
+
+**<span style="color:#1696d2;">Without</span>** using the Education Data Portal... 
+
+::: {style="font-size: 60%"}
+
+* Find the agency collecting this data 
+* Download data files for each year 
+* Read each file into R or Python 
+* Read the data documentation to find the right variable 
+* Notice a few confusing jumps     
+* Re-read the data documentation (and discover that the variable definition changed in the late-90s) 
+* ~~Give up~~ Take an ice cream break 
+* Update the code to account for the change 
+* Set a reminder to repeat the process again next year (and hope nothing changes) 
+
+:::
+
+**<span style="color:#1696d2;">This is tedious, error-prone, and simply not fun.</span>**
+
+---
+
+**How has tuition at my alma mater changed since the 90s?**
+
+Using the Education Data Portal **<span style="color:#1696d2;">R package</span>**...
+
+```{.r}
+library(educationdata)
+
+carleton_unitid <- "173258"
+
+carleton_data <- get_education_data(
+    level = "college-university",
+    source = "ipeds",
+    topic = "academic-year-tuition",
+    filters = list(
+        year = c(1990:2020), 
+        unitid = carleton_unitid
+    )
+)
+```
+
+---
+
+**How has tuition at my alma mater changed since the 90s?**
+
+Using the Education Data Portal **<span style="color:#1696d2;">Python package</span>**...
+
+```{.python}
+import educationdata 
+
+carleton_unitid = "173258"
+
+carleton_data = get_education_data(
+    level = "college-university",
+    source = "ipeds",
+    topic = "academic-year-tuition",
+    filters = {
+        "year": range(1990, 2020), 
+        "unitid": carleton_unitid
+    }
+)
+```
+
+---
+
+**How has tuition at my alma mater changed since the 90s?**
+
+Using the Education Data Portal **<span style="color:#1696d2;">Stata package</span>**...
+
+```{.r}
+educationdata using "college ipeds academic-year-tuition", ///
+    sub(year= 1990/2020, unitid=173258)
+```
+
+---
+
+**How has tuition at my alma mater changed since the 90s?**
+
+Using the Education Data Portal **<span style="color:#1696d2;">Data Explorer</span>**...
+
+TODO: Add video 
+---
+
+**Have public and private institutions seen the same trend?**
+
+Using the Education Data Portal **<span style="color:#1696d2;">summary endpoints</span>**...
+
+::: {.panel-tabset}
+
+### R
+
+```{.r}
+library(educationdata)
+
+sector_avg_data <- get_education_data_summary(
+    level = "college-university",
+    source = "ipeds",
+    topic = "academic-year-tuition",
+    stat = "avg",
+    var = "tuition_fees_ft",
+    by = "sector",
+    filters = list(
+        level_of_study = 1, 
+        tuition_type = 4
+    )
+)
+```
+
+### Python 
+
+TODO: Add Python code 
+
+### Stata 
+
+TODO: Add Stata code 
+
+### Data Explorer  
+
+TODO: Add video 
+
+:::
+
+---
+
+## Why do I think the portal bridges this gap so effectively? 
+
+* By focusing on the **<span style="color:#1696d2;">underlying API</span>**   
+* By focusing on **<span style="color:#1696d2;">data documentation</span>** 
+
+## Focusing on the underlying API 
+
+TODO: Add content 
+
+## Focusing on data documenation 
+
+TODO: Add content 
+
+## Why does bridging this gap matter? 
+
+TODO: Add examples 
+
+## Get in touch 
+
+* Access the portal: <https://educationdata.urban.org>  
+* Email the portal: educationdata@urban.org 
+* Email me: etyagi@urban.org 
