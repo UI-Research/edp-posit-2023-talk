@@ -6,6 +6,7 @@ format:
   revealjs:
     menu: false 
     embed-resources: true
+    slide-number: true
     theme: urbn.scss    
     logo: images/urban-institute-logo-2.png
     footer: <https://educationdata.urban.org> 
@@ -18,30 +19,59 @@ title-slide-attributes:
 
 ## What is the Education Data Portal? 
 
-* A freely available one-stop-shop for all major datasets released by government agencies on U.S. schools, school districts, and colleges. 
-* A tool that bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>** in the education space. 
+* A freely available **<span style="color:#1696d2;">one-stop-shop</span>** for all major datasets released by government agencies on U.S. schools, school districts, and colleges
+
+. . .
+
+* A tool that bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>** in the education space 
 
 ## What do I mean by the <br> availability-accessibility gap? 
 
+. . .
+
 **<span style="color:#1696d2;">Example: Collecting data on COVID in jails and prisons</span>**
+
+::: columns
+
+::: {.column width="60%"}
 
 ::: {style="font-size: 60%"}
 
-* An Excel spreadsheet...  
-* Scanned as a PDF... 
-* At an angle...
-* And a little blurry... 
-* With inconsistent rows and columns... 
-* And dark text on a dark background... 
-* And the occasional coffee spill...  
+::: {.incremental}
+
+* An Excel spreadsheet  
+* Scanned as a PDF
+* At an angle
+* And a little blurry 
+* With inconsistent rows and columns 
+* And dark text on a dark background 
+* And the occasional coffee spill  
 
 :::
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+TODO: Add stacked images 
+
+:::
+
+:::
+
+. . .
 
 **<span style="color:#1696d2;">Accessible to whom?</span>**
 
 ## How does the portal bridge the availability-accessibility gap? 
 
+. . .
+
 **<span style="color:#1696d2;">How has tuition at my alma mater changed since the 90s?</span>**
+
+![](images/carleton-logo.png){height=350 fig-align="center"}
 
 ---
 
@@ -49,19 +79,42 @@ title-slide-attributes:
 
 **<span style="color:#1696d2;">Without</span>** using the Education Data Portal... 
 
+. . . 
+
+::: columns
+
+::: {.column width="55%"}
+
 ::: {style="font-size: 60%"}
+
+::: {.incremental}
 
 * Find the agency collecting this data 
 * Download data files for each year 
-* Read each file into R or Python 
-* Read the data documentation to find the right variable 
-* Notice a few confusing jumps     
-* Re-read the data documentation (and discover that the variable definition changed in the late-90s) 
+* Load each file into R or Python 
+* Read the data documentation 
+* Notice a few anomalies      
+* Re-read the data documentation 
 * ~~Give up~~ Take an ice cream break 
-* Update the code to account for the change 
-* Set a reminder to repeat the process again next year (and hope nothing changes) 
+* Update the code per the documentation 
+* Remember to repeat the process again next year
+* (And hope nothing changes) 
 
 :::
+
+:::
+
+:::
+
+::: {.column width="45%"}
+
+TODO: Add likert scale image
+
+:::
+
+:::
+
+. . .
 
 **<span style="color:#1696d2;">This is tedious, error-prone, and simply not fun.</span>**
 
@@ -71,21 +124,54 @@ title-slide-attributes:
 
 Using the Education Data Portal **<span style="color:#1696d2;">R package</span>**...
 
-```{.r}
+---
+
+**How has tuition at my alma mater changed since the 90s?**
+
+Using the Education Data Portal **<span style="color:#1696d2;">R package</span>**...
+
+::: columns
+
+::: {.column width="55%"}
+
+```{.r code-line-numbers="7-16"}
 library(educationdata)
 
+# Specify unit ID 
 carleton_unitid <- "173258"
 
+# Get data 
 carleton_data <- get_education_data(
-    level = "college-university",
-    source = "ipeds",
-    topic = "academic-year-tuition",
-    filters = list(
-        year = c(1990:2020), 
-        unitid = carleton_unitid
-    )
+  level = "college-university",
+  source = "ipeds",
+  topic = "academic-year-tuition",
+  filters = list(
+    year = c(1990:2020), 
+    unitid = carleton_unitid, 
+    tuition_type = "4"
+  )
 )
+
+# Plot data 
+carleton_data %>%
+  ggplot(aes(x = year, y = tuition_fees_ft)) +
+  geom_line()
 ```
+
+:::
+
+::: {.column width="45%"}
+
+![](images/carleton-tuition-plot-r.png){.absolute top=200 left=580 width="500"}
+
+:::
+
+:::
+
+
+::: aside
+<span style="color:#4d4d4d;">https://CRAN.R-project.org/package=educationdata</span>
+:::
 
 ---
 
@@ -93,21 +179,47 @@ carleton_data <- get_education_data(
 
 Using the Education Data Portal **<span style="color:#1696d2;">Python package</span>**...
 
-```{.python}
+::: columns
+
+::: {.column width="55%"}
+
+```{.python code-line-numbers="7-16"}
 import educationdata 
 
+# Specify unit ID 
 carleton_unitid = "173258"
 
+# Get data 
 carleton_data = get_education_data(
-    level = "college-university",
-    source = "ipeds",
-    topic = "academic-year-tuition",
-    filters = {
-        "year": range(1990, 2020), 
-        "unitid": carleton_unitid
-    }
+  level = "college-university",
+  source = "ipeds",
+  topic = "academic-year-tuition",
+  filters = {
+    "year": range(1990, 2020), 
+    "unitid": carleton_unitid, 
+    "tuition_type": "4" 
+  }
+)
+
+# Plot data 
+carleton_data.plot.line(
+  x = "year", y = "tuition_fees_ft"
 )
 ```
+
+:::
+
+::: {.column width="45%"}
+
+![](images/carleton-tuition-plot-python.png){.absolute top=200 left=580 width="500"}
+
+:::
+
+:::
+
+::: aside
+The Python package is not publicly available yet. 
+:::
 
 ---
 
@@ -115,10 +227,39 @@ carleton_data = get_education_data(
 
 Using the Education Data Portal **<span style="color:#1696d2;">Stata package</span>**...
 
-```{.r}
-educationdata using "college ipeds academic-year-tuition", ///
-    sub(year= 1990/2020, unitid=173258)
+::: columns
+
+::: {.column width="55%"}
+
+```{.code code-line-numbers="4-9"}
+#delim ;
+
+// Get data 
+educationdata 
+  using "college ipeds academic-year-tuition", sub(
+  year = 1990/2020, 
+  unitid = "173258",
+  tuition_type = "4" 
+)
+
+// TODO: Plot data 
+
+#delimit cr
 ```
+
+:::
+
+::: {.column width="45%"}
+
+TODO: Add plot  
+
+:::
+
+:::
+
+::: aside
+<span style="color:#4d4d4d;">https://github.com/UrbanInstitute/education-data-package-stata</span>
+:::
 
 ---
 
@@ -127,32 +268,64 @@ educationdata using "college ipeds academic-year-tuition", ///
 Using the Education Data Portal **<span style="color:#1696d2;">Data Explorer</span>**...
 
 TODO: Add video 
+
+::: aside
+<span style="color:#4d4d4d;">https://educationdata.urban.org/data-explorer</span>
+:::
+
+---
+
+**Have public and private institutions seen the same trend?**
+
 ---
 
 **Have public and private institutions seen the same trend?**
 
 Using the Education Data Portal **<span style="color:#1696d2;">summary endpoints</span>**...
 
+::: {style="font-size: 60%"}
+
 ::: {.panel-tabset}
 
 ### R
 
-```{.r}
-library(educationdata)
+::: columns
 
+::: {.column width="55%"}
+
+```{.r code-line-numbers="2,6-8"}
+# Get summary data 
 sector_avg_data <- get_education_data_summary(
-    level = "college-university",
-    source = "ipeds",
-    topic = "academic-year-tuition",
-    stat = "avg",
-    var = "tuition_fees_ft",
-    by = "sector",
-    filters = list(
-        level_of_study = 1, 
-        tuition_type = 4
-    )
+  level = "college-university",
+  source = "ipeds",
+  topic = "academic-year-tuition",
+  stat = "avg",
+  var = "tuition_fees_ft",
+  by = "sector",
+  filters = list(
+    level_of_study = "1", 
+    tuition_type = "4", 
+    sector = "1,2"
+  )
 )
+
+# Plot data 
+sector_avg_data %>%
+  mutate(sector = factor(sector) %>%
+    fct_recode("public" = "1", "private" = "2")) %>%
+  ggplot(aes(x = year, y = tuition_fees_ft, group = sector, color = sector)) +
+  geom_line()
 ```
+
+:::
+
+::: {.column width="45%"}
+
+![](images/public-private-plot-r.png){.absolute top=280 left=580 width="520"}
+
+:::
+
+:::
 
 ### Python 
 
@@ -168,18 +341,24 @@ TODO: Add video
 
 :::
 
+:::
+
 ---
 
 ## Why do I think the portal bridges this gap so effectively? 
 
+::: {.incremental}
+
 * By focusing on the **<span style="color:#1696d2;">underlying API</span>**   
 * By focusing on **<span style="color:#1696d2;">data documentation</span>** 
 
-## Focusing on the underlying API 
+:::
+
+## The underlying API 
 
 TODO: Add content 
 
-## Focusing on data documenation 
+## Data documentation 
 
 TODO: Add content 
 
