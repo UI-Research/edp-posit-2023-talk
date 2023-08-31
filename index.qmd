@@ -6,7 +6,6 @@ format:
   revealjs:
     menu: false 
     embed-resources: true
-    slide-number: true
     theme: urbn.scss    
     logo: images/urban-institute-logo-2.png
     footer: <https://educationdata.urban.org> 
@@ -17,19 +16,21 @@ title-slide-attributes:
     data-background-position: 2% 91%
 ---
 
-## What is the Education Data Portal? 
+## The Education Data Portal bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>**. 
 
-* A freely available **<span style="color:#1696d2;">one-stop-shop</span>** for all major datasets released by government agencies on U.S. schools, school districts, and colleges
+::: {.incremental}
 
-. . .
+1. What do I mean by the availability-accessibility gap? 
+2. How does the portal bridge this gap? 
+3. Why does bridging this gap matter? 
 
-* A tool that bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>** in the education space 
+:::
 
-## What do I mean by the <br> availability-accessibility gap? 
+## What do I mean by the data <br> availability-accessibility gap? 
 
-. . .
+. . . 
 
-**<span style="color:#1696d2;">Example: Collecting data on COVID in jails and prisons</span>**
+**Example**: Collecting data on COVID in jails and prisons 
 
 ::: columns
 
@@ -55,7 +56,6 @@ title-slide-attributes:
 
 ::: {.column width="40%"}
 
-TODO: Add stacked images 
 
 :::
 
@@ -65,21 +65,45 @@ TODO: Add stacked images
 
 **<span style="color:#1696d2;">Accessible to whom?</span>**
 
-## How does the portal bridge the availability-accessibility gap? 
+## How does the portal bridge this gap? 
 
-. . .
+::: {.incremental}
 
-**<span style="color:#1696d2;">How has tuition at my alma mater changed since the 90s?</span>**
+* The portal is a freely available **<span style="color:#1696d2;">one-stop-shop</span>** for all major datasets released by government agencies on U.S. schools, school districts, and colleges. 
+* The portal includes harmonized data and metadata for **<span style="color:#1696d2;">100+ datasets</span>** published by 10+ agencies and institutions. 
+* The portal makes it easier for both technical and non-technical users to look at **<span style="color:#1696d2;">trends over time</span>** and combine data **<span style="color:#1696d2;">from different sources</span>**. 
+
+:::
+
+## How does the portal bridge this gap? 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: columns
+
+::: {.column width="50%"}
 
 ![](images/carleton-logo.png){height=350 fig-align="center"}
 
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment fragment-index=1}
+
+![](images/line-chart-icon.png){height=350}
+
+:::
+
+:::
+
+:::
+
 ---
 
-**How has tuition at my alma mater changed since the 90s?**
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**<span style="color:#1696d2;">Without</span>** using the Education Data Portal... 
-
-. . . 
+**Example**: How has tuition at my alma mater changed?
 
 ::: columns
 
@@ -108,8 +132,6 @@ TODO: Add stacked images
 
 ::: {.column width="45%"}
 
-TODO: Add likert scale image
-
 :::
 
 :::
@@ -120,25 +142,18 @@ TODO: Add likert scale image
 
 ---
 
-**How has tuition at my alma mater changed since the 90s?**
+## Using the portal **<span style="color:#1696d2;">R package</span>**...
 
-Using the Education Data Portal **<span style="color:#1696d2;">R package</span>**...
+**Example**: How has tuition at my alma mater changed?
 
----
-
-**How has tuition at my alma mater changed since the 90s?**
-
-Using the Education Data Portal **<span style="color:#1696d2;">R package</span>**...
+. . . 
 
 ::: columns
 
 ::: {.column width="55%"}
 
-```{.r code-line-numbers="7-16"}
+```{.r code-line-numbers="4"}
 library(educationdata)
-
-# Specify unit ID 
-carleton_unitid <- "173258"
 
 # Get data 
 carleton_data <- get_education_data(
@@ -147,7 +162,7 @@ carleton_data <- get_education_data(
   topic = "academic-year-tuition",
   filters = list(
     year = c(1990:2020), 
-    unitid = carleton_unitid, 
+    unitid = "173258", 
     tuition_type = "4"
   )
 )
@@ -168,26 +183,18 @@ carleton_data %>%
 
 :::
 
-
-::: aside
-<span style="color:#4d4d4d;">https://CRAN.R-project.org/package=educationdata</span>
-:::
-
 ---
 
-**How has tuition at my alma mater changed since the 90s?**
+## Using the portal **<span style="color:#1696d2;">Python package</span>**...
 
-Using the Education Data Portal **<span style="color:#1696d2;">Python package</span>**...
+**Example**: How has tuition at my alma mater changed?
 
 ::: columns
 
 ::: {.column width="55%"}
 
-```{.python code-line-numbers="7-16"}
+```{.python code-line-numbers="4"}
 import educationdata 
-
-# Specify unit ID 
-carleton_unitid = "173258"
 
 # Get data 
 carleton_data = get_education_data(
@@ -196,7 +203,7 @@ carleton_data = get_education_data(
   topic = "academic-year-tuition",
   filters = {
     "year": range(1990, 2020), 
-    "unitid": carleton_unitid, 
+    "unitid": "173258", 
     "tuition_type": "4" 
   }
 )
@@ -217,71 +224,61 @@ carleton_data.plot.line(
 
 :::
 
-::: aside
-The Python package is not publicly available yet. 
-:::
-
 ---
 
-**How has tuition at my alma mater changed since the 90s?**
+## Using the portal **<span style="color:#1696d2;">Stata package</span>**...
 
-Using the Education Data Portal **<span style="color:#1696d2;">Stata package</span>**...
+**Example**: How has tuition at my alma mater changed?
 
 ::: columns
 
 ::: {.column width="55%"}
 
-```{.code code-line-numbers="4-9"}
-#delim ;
-
-// Get data 
-educationdata 
-  using "college ipeds academic-year-tuition", sub(
-  year = 1990/2020, 
-  unitid = "173258",
-  tuition_type = "4" 
+```{.code code-line-numbers="2"}
+* Get data 
+educationdata ///
+  using "college ipeds academic-year-tuition", sub( ///
+  year=1990/2020 ///
+  unitid=173258 ///
+  tuition_type=4 ///
 )
 
-// TODO: Plot data 
+* Plot data 
+twoway (line tuition_fees_ft year)
 
-#delimit cr
+
+
+
+
+
+
+
+
 ```
 
 :::
 
 ::: {.column width="45%"}
 
-TODO: Add plot  
+![](images/carleton-tuition-plot-stata.png){.absolute top=200 left=600 width="480"}
 
 :::
 
-:::
-
-::: aside
-<span style="color:#4d4d4d;">https://github.com/UrbanInstitute/education-data-package-stata</span>
 :::
 
 ---
 
-**How has tuition at my alma mater changed since the 90s?**
+## Using the portal **<span style="color:#1696d2;">Data Explorer</span>**...
 
-Using the Education Data Portal **<span style="color:#1696d2;">Data Explorer</span>**...
+**Example**: How has tuition at my alma mater changed?
 
 TODO: Add video 
 
-::: aside
-<span style="color:#4d4d4d;">https://educationdata.urban.org/data-explorer</span>
-:::
+## Using the **<span style="color:#1696d2;">summary endpoints</span>**...
 
----
+**Example**: Have public institutions seen the same trend?
 
-**Have public and private institutions seen the same trend?**
-
----
-
-**Have public and private institutions seen the same trend?**
-
-Using the Education Data Portal **<span style="color:#1696d2;">summary endpoints</span>**...
+. . . 
 
 ::: {style="font-size: 60%"}
 
@@ -349,8 +346,8 @@ TODO: Add video
 
 ::: {.incremental}
 
-* By focusing on the **<span style="color:#1696d2;">underlying API</span>**   
-* By focusing on **<span style="color:#1696d2;">data documentation</span>** 
+1. By focusing on the **<span style="color:#1696d2;">underlying API</span>**   
+2. By focusing on **<span style="color:#1696d2;">data documentation</span>** 
 
 :::
 
