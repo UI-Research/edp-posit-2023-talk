@@ -28,13 +28,9 @@ title-slide-attributes:
 
 ## What do I mean by the data <br> availability-accessibility gap? 
 
-. . . 
-
 **Example**: Collecting data on COVID in jails and prisons 
 
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
+. . .
 
 ::: {style="font-size: 60%"}
 * A spreadsheet  
@@ -140,19 +136,20 @@ title-slide-attributes:
 
 ::: columns
 ::: {.column width="50%"}
+::: {.fragment fragment-index=1}
 
 ![](images/carleton-campus.jpeg){height=300 fig-align="center"}
 
 :::
+:::
 ::: {.column width="50%"}
-::: {.fragment fragment-index=1}
+::: {.fragment fragment-index=2}
 
 ![](images/line-chart-icon.png){height=300}
 
 :::
 :::
 :::
-
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
@@ -531,24 +528,20 @@ twoway (line tuition_fees_ft year)
 
 ## Why do I think the portal bridges this gap so effectively? 
 
-::: {style="font-size: 85%;"}
-By focusing on the **underlying API** and **data documentation** 
-:::
-
 ::: columns
 ::: {.column width="33%"}
 
-![](images/technology.png){width="240" fig-align="right"}
+![](images/education.png){width="250" fig-align="right"}
 
 :::
 ::: {.column width="33%"}
 
-![](images/union.png){.absolute top=300 left=420 width="160"}
+![](images/union.png){.absolute top=230 left=420 width="160"}
 
 :::
 ::: {.column width="33%"}
 
-![](images/education.png){width="240" fig-align="left"}
+![](images/technology.png){width="250" fig-align="left"}
 
 ::: 
 :::
