@@ -1,6 +1,6 @@
 ---
 title: "Democratizing Access to Education Data"
-subtitle: "With the Urban Institute's Education Data Portal"
+subtitle: "The Urban Institute's Education Data Portal"
 author: "Erika Tyagi"
 format: 
   revealjs:
@@ -13,16 +13,16 @@ format:
 title-slide-attributes: 
     data-background-image: images/urban-institute-logo-1.png
     data-background-size: 25%
-    data-background-position: 2% 91%
+    data-background-position: 2% 85%
 ---
 
 ## The Education Data Portal bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>**. 
 
 ::: {.incremental}
 
-1. What do I mean by the availability-accessibility gap? 
-2. How does the portal bridge this gap? 
-3. Why does bridging this gap matter? 
+1. What do I mean by the availability-accessibility gap?
+2. How does the portal bridge this gap?   
+3. Why does bridging this gap matter?   
 
 :::
 
@@ -32,36 +32,95 @@ title-slide-attributes:
 
 **Example**: Collecting data on COVID in jails and prisons 
 
-::: columns
+## What do I mean by the data <br> availability-accessibility gap? 
 
-::: {.column width="60%"}
+**Example**: Collecting data on COVID in jails and prisons 
 
 ::: {style="font-size: 60%"}
+* A spreadsheet  
+:::
 
-::: {.incremental}
+![](images/lasd-1.png){.absolute top=225 left=500 height="350"}
 
-* An Excel spreadsheet  
+## What do I mean by the data <br> availability-accessibility gap? 
+
+**Example**: Collecting data on COVID in jails and prisons 
+
+::: {style="font-size: 60%"}
+* A spreadsheet  
 * Scanned as a PDF
-* At an angle
+:::
+
+![](images/lasd-2.png){.absolute top=225 left=500 height="350"}
+
+## What do I mean by the data <br> availability-accessibility gap? 
+
+**Example**: Collecting data on COVID in jails and prisons 
+
+::: {style="font-size: 60%"}
+* A spreadsheet  
+* Scanned as a PDF
+* With dark text on a dark background 
+:::
+
+![](images/lasd-3.png){.absolute top=225 left=500 height="350"}
+
+## What do I mean by the data <br> availability-accessibility gap? 
+
+**Example**: Collecting data on COVID in jails and prisons 
+
+::: {style="font-size: 60%"}
+* A spreadsheet  
+* Scanned as a PDF
+* With dark text on a dark background 
 * And a little blurry 
-* With inconsistent rows and columns 
-* And dark text on a dark background 
+:::
+
+![](images/lasd-4.png){.absolute top=225 left=500 height="350"}
+
+## What do I mean by the data <br> availability-accessibility gap? 
+
+**Example**: Collecting data on COVID in jails and prisons 
+
+::: {style="font-size: 60%"}
+* A spreadsheet  
+* Scanned as a PDF
+* With dark text on a dark background 
+* And a little blurry 
+* And inconsistent rows and columns 
+:::
+
+![](images/lasd-5.png){.absolute top=225 left=500 height="350"}
+
+## What do I mean by the data <br> availability-accessibility gap? 
+
+**Example**: Collecting data on COVID in jails and prisons 
+
+::: {style="font-size: 60%"}
+* A spreadsheet  
+* Scanned as a PDF
+* With dark text on a dark background 
+* And a little blurry 
+* And inconsistent rows and columns 
 * And the occasional coffee spill  
-
 :::
 
+![](images/lasd-6.png){.absolute top=225 left=500 height="350"}
+
+## What do I mean by the data <br> availability-accessibility gap? 
+
+**Example**: Collecting data on COVID in jails and prisons 
+
+::: {style="font-size: 60%; color: #9d9d9d"}
+* A spreadsheet  
+* Scanned as a PDF
+* With dark text on a dark background 
+* And a little blurry 
+* And inconsistent rows and columns 
+* And the occasional coffee spill  
 :::
 
-:::
-
-::: {.column width="40%"}
-
-
-:::
-
-:::
-
-. . .
+![](images/lasd-6.png){.absolute top=225 left=500 height="350"}
 
 **<span style="color:#1696d2;">Accessible to whom?</span>**
 
@@ -69,9 +128,9 @@ title-slide-attributes:
 
 ::: {.incremental}
 
-* The portal is a freely available **<span style="color:#1696d2;">one-stop-shop</span>** for all major datasets released by government agencies on U.S. schools, school districts, and colleges. 
-* The portal includes harmonized data and metadata for **<span style="color:#1696d2;">100+ datasets</span>** published by 10+ agencies and institutions. 
-* The portal makes it easier for both technical and non-technical users to look at **<span style="color:#1696d2;">trends over time</span>** and combine data **<span style="color:#1696d2;">from different sources</span>**. 
+* Provides a **<span style="color:#1696d2;">one-stop-shop</span>** for 100+ datasets released by government agencies and other institutions on schools, school districts, and colleges in the U.S. 
+* Includes harmonized **<span style="color:#1696d2;">data</span>** and **<span style="color:#1696d2;">metadata</span>** for each dataset
+* Makes it easier for users to look at **<span style="color:#1696d2;">trends over time</span>** and **<span style="color:#1696d2;">combine data</span>** from different sources 
 
 :::
 
@@ -80,67 +139,188 @@ title-slide-attributes:
 **Example**: How has tuition at my alma mater changed?
 
 ::: columns
-
 ::: {.column width="50%"}
 
-![](images/carleton-logo.png){height=350 fig-align="center"}
+![](images/carleton-campus.jpeg){height=300 fig-align="center"}
 
 :::
-
 ::: {.column width="50%"}
-
 ::: {.fragment fragment-index=1}
 
-![](images/line-chart-icon.png){height=350}
+![](images/line-chart-icon.png){height=300}
 
 :::
-
+:::
 :::
 
-:::
-
----
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
 **Example**: How has tuition at my alma mater changed?
 
-::: columns
+. . .
 
-::: {.column width="55%"}
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+:::
 
-::: {style="font-size: 60%"}
+![](images/likert-1.png){.absolute top=125 left=420 height="220"}
 
-::: {.incremental}
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-* Find the agency collecting this data 
-* Download data files for each year 
-* Load each file into R or Python 
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
 * Read the data documentation 
-* Notice a few anomalies      
+:::
+
+![](images/likert-2.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+:::
+
+![](images/likert-3.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+:::
+
+![](images/likert-2.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice a few anomalies
+:::
+
+![](images/likert-4.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice a few anomalies
+* Re-read the data documentation
+:::
+
+![](images/likert-5.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice a few anomalies
+* Re-read the data documentation
+* ~~Give up~~ Take an ice cream break 
+:::
+
+![](images/likert-2.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice a few anomalies
+* Re-read the data documentation
+* ~~Give up~~ Take an ice cream break 
+* Update the code per the documentation
+:::
+
+![](images/likert-3.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice a few anomalies
+* Re-read the data documentation
+* ~~Give up~~ Take an ice cream break 
+* Update the code per the documentation
+* Remember to repeat the process again next year
+:::
+
+![](images/likert-4.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice a few anomalies
+* Re-read the data documentation
+* ~~Give up~~ Take an ice cream break 
+* Update the code per the documentation
+* Remember to repeat the process again next year
+* (And hope nothing changes)
+:::
+
+![](images/likert-5.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+**Example**: How has tuition at my alma mater changed?
+
+::: {style="font-size: 55%; color: #9d9d9d"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year 
+* Load each file into R or Python
+* Notice a few anomalies  
 * Re-read the data documentation 
 * ~~Give up~~ Take an ice cream break 
 * Update the code per the documentation 
 * Remember to repeat the process again next year
 * (And hope nothing changes) 
-
 :::
 
-:::
-
-:::
-
-::: {.column width="45%"}
-
-:::
-
-:::
-
-. . .
+![](images/likert-5.png){.absolute top=125 left=420 height="220"}
 
 **<span style="color:#1696d2;">This is tedious, error-prone, and simply not fun.</span>**
-
----
 
 ## Using the portal **<span style="color:#1696d2;">R package</span>**...
 
@@ -149,14 +329,13 @@ title-slide-attributes:
 . . . 
 
 ::: columns
-
 ::: {.column width="55%"}
 
 ```{.r code-line-numbers="4"}
 library(educationdata)
 
 # Get data 
-carleton_data <- get_education_data(
+data <- get_education_data(
   level = "college-university",
   source = "ipeds",
   topic = "academic-year-tuition",
@@ -168,19 +347,17 @@ carleton_data <- get_education_data(
 )
 
 # Plot data 
-carleton_data %>%
+data %>%
   ggplot(aes(x = year, y = tuition_fees_ft)) +
   geom_line()
 ```
 
 :::
-
 ::: {.column width="45%"}
 
 ![](images/carleton-tuition-plot-r.png){.absolute top=200 left=580 width="500"}
 
 :::
-
 :::
 
 ---
@@ -190,14 +367,13 @@ carleton_data %>%
 **Example**: How has tuition at my alma mater changed?
 
 ::: columns
-
 ::: {.column width="55%"}
 
 ```{.python code-line-numbers="4"}
 import educationdata 
 
 # Get data 
-carleton_data = get_education_data(
+data = get_education_data(
   level = "college-university",
   source = "ipeds",
   topic = "academic-year-tuition",
@@ -209,19 +385,23 @@ carleton_data = get_education_data(
 )
 
 # Plot data 
-carleton_data.plot.line(
+data.plot.line(
   x = "year", y = "tuition_fees_ft"
 )
 ```
 
 :::
-
 ::: {.column width="45%"}
 
 ![](images/carleton-tuition-plot-python.png){.absolute top=200 left=580 width="500"}
 
 :::
+:::
 
+::: aside
+::: {style="color: #696969"}
+The Python package is not yet publicly available. 
+:::
 :::
 
 ---
@@ -231,13 +411,12 @@ carleton_data.plot.line(
 **Example**: How has tuition at my alma mater changed?
 
 ::: columns
-
 ::: {.column width="55%"}
 
 ```{.code code-line-numbers="2"}
 * Get data 
-educationdata ///
-  using "college ipeds academic-year-tuition", sub( ///
+educationdata using ///
+  "college ipeds academic-year-tuition", sub( ///
   year=1990/2020 ///
   unitid=173258 ///
   tuition_type=4 ///
@@ -257,13 +436,11 @@ twoway (line tuition_fees_ft year)
 ```
 
 :::
-
 ::: {.column width="45%"}
 
 ![](images/carleton-tuition-plot-stata.png){.absolute top=200 left=600 width="480"}
 
 :::
-
 :::
 
 ---
@@ -273,74 +450,6 @@ twoway (line tuition_fees_ft year)
 **Example**: How has tuition at my alma mater changed?
 
 TODO: Add video 
-
-## Using the **<span style="color:#1696d2;">summary endpoints</span>**...
-
-**Example**: Have public institutions seen the same trend?
-
-. . . 
-
-::: {style="font-size: 60%"}
-
-::: {.panel-tabset}
-
-### R
-
-::: columns
-
-::: {.column width="55%"}
-
-```{.r code-line-numbers="2,6-8"}
-# Get summary data 
-sector_avg_data <- get_education_data_summary(
-  level = "college-university",
-  source = "ipeds",
-  topic = "academic-year-tuition",
-  stat = "avg",
-  var = "tuition_fees_ft",
-  by = "sector",
-  filters = list(
-    level_of_study = "1", 
-    tuition_type = "4", 
-    sector = "1,2"
-  )
-)
-
-# Plot data 
-sector_avg_data %>%
-  mutate(sector = factor(sector) %>%
-    fct_recode("public" = "1", "private" = "2")) %>%
-  ggplot(aes(x = year, y = tuition_fees_ft, group = sector, color = sector)) +
-  geom_line()
-```
-
-:::
-
-::: {.column width="45%"}
-
-![](images/public-private-plot-r.png){.absolute top=280 left=580 width="520"}
-
-:::
-
-:::
-
-### Python 
-
-TODO: Add Python code 
-
-### Stata 
-
-TODO: Add Stata code 
-
-### Data Explorer  
-
-TODO: Add video 
-
-:::
-
-:::
-
----
 
 ## Why do I think the portal bridges this gap so effectively? 
 
@@ -353,18 +462,142 @@ TODO: Add video
 
 ## The underlying API 
 
-TODO: Add content 
+::: columns
+::: {.column width="50%"}
+
+* 120+ data endpoints  
+(***with*** the data)   
+* 12+ metadata endpoints (***about*** the data) 
+* All other tools, packages, and documentation are built on these endpoints 
+
+:::
+::: {.column width="50%"}
+
+![](images/api.png){.absolute top=40 left=550 width="400"}
+
+:::
+:::
 
 ## Data documentation 
 
-TODO: Add content 
+::: columns
+::: {.column width="40%"}
+
+* Considered a <br> ***first-order*** priority
+* For humans and machines 
+* With details on demand 
+
+:::
+::: {.column width="60%"}
+
+![](images/documentation.png){.absolute top=100 left=390 width="620"}
+
+:::
+:::
+
+## Data documentation 
+
+::: columns
+::: {.column width="40%"}
+
+* Considered a <br> ***first-order*** priority
+* For humans and machines 
+* With details on demand 
+
+:::
+::: {.column width="60%"}
+
+![](images/code-example.png){.absolute top=100 left=390 width="550"}
+
+:::
+:::
+
+## Data documentation 
+
+::: columns
+::: {.column width="40%"}
+
+* Considered a <br> ***first-order*** priority
+* For humans and machines 
+* With details on demand 
+
+:::
+::: {.column width="60%"}
+
+![](images/details-on-demand.png){.absolute top=90 left=390 width="450"}
+
+:::
+:::
+
+## Why do I think the portal bridges this gap so effectively? 
+
+::: {style="font-size: 85%;"}
+By focusing on the **underlying API** and **data documentation** 
+:::
+
+::: columns
+::: {.column width="33%"}
+
+![](images/technology.png){width="240" fig-align="right"}
+
+:::
+::: {.column width="33%"}
+
+![](images/union.png){.absolute top=300 left=420 width="160"}
+
+:::
+::: {.column width="33%"}
+
+![](images/education.png){width="240" fig-align="left"}
+
+::: 
+:::
+::: aside
+::: {style="color: #696969"}
+Contributors: Erica Blom, Jay Carter, Ben Chartoff, David D'Orio, Graham MacDonald, Leonardo Restrepo, Kyle Ueyama, and Vivian Zheng 
+:::
+:::
 
 ## Why does bridging this gap matter? 
 
-TODO: Add examples 
+::: columns
+::: {.column width="33%"}
+::: {.fragment fragment-index=1}
+
+![](images/women-graduates.png){.absolute top=120 width="320"}
+
+:::
+:::
+::: {.column width="33%"}
+::: {.fragment fragment-index=2}
+
+![](images/data-science.png){width="260" fig-align="center"}
+
+:::
+:::
+::: {.column width="33%"}
+::: {.fragment fragment-index=3}
+
+![](images/principal.png){width="280" fig-align="right"}
+
+:::
+:::
+:::
+::: {.fragment fragment-index=4}
+
+**<span style="color:#1696d2;">Different people ask different—and important—questions.</span>** 
+
+:::
 
 ## Get in touch 
 
+::: {style="font-size: 85%;"}
 * Access the portal: <https://educationdata.urban.org>  
 * Email the portal: educationdata@urban.org 
 * Email me: etyagi@urban.org 
+
+:::
+
+![](images/educationdata-hex.png){.absolute top=190 left=500 width="400"}
+
+--- 
