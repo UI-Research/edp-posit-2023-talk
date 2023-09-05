@@ -449,7 +449,7 @@ twoway (line tuition_fees_ft year)
 
 **Example**: How has tuition at my alma mater changed?
 
-TODO: Add video 
+{{< video images/explorer.mp4 width="550" height="480" start="2" >}}
 
 ## Why do I think the portal bridges this gap so effectively? 
 
