@@ -450,12 +450,8 @@ twoway (line tuition_fees_ft year)
 
 ## Why do I think the portal bridges this gap so effectively? 
 
-::: {.incremental}
-
 1. By focusing on the **<span style="color:#1696d2;">underlying API</span>**   
 2. By focusing on **<span style="color:#1696d2;">data documentation</span>** 
-
-:::
 
 ## The underlying API 
 
