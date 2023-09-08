@@ -16,136 +16,53 @@ title-slide-attributes:
     data-background-position: 2% 85%
 ---
 
+## The Education Data Portal 
+
+::: columns
+
+::: {.column width="40%"}
+![](images/educationdata-hex.png)
+:::
+
+::: {.column width="60%"}
+::: {style="font-size: 88%"}
+* **What?** A freely available <br> **<span style="color:#1696d2;">one-stop-shop</span>** for 100+ datasets released by government agencies and other institutions on schools, districts, and colleges in the U.S. 
+
+::: {.fragment fragment-index=1}
+* **Why?** To make it easier for both <br> **<span style="color:#1696d2;">technical</span>** and **<span style="color:#1696d2;">non-technical users</span>** to look at trends over time and combine data from different sources 
+:::
+:::
+:::
+:::
+
 ## The Education Data Portal bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>**. 
 
 ::: {.incremental}
-
 1. What do I mean by the availability-accessibility gap?
 2. How does the portal bridge this gap?   
 3. Why does bridging this gap matter?   
-
 :::
 
-## What do I mean by the data <br> availability-accessibility gap? 
+## What do I mean by the availability-accessibility gap? 
 
-**Example**: Collecting data on COVID in jails and prisons 
-
-. . .
-
-::: {style="font-size: 60%"}
-* A spreadsheet  
+::: {style="font-size: 90%"}
+::: {.fragment fragment-index=1}
+**Example**: How has tuition at my alma mater risen over my lifetime?
 :::
-
-![](images/lasd-1.png){.absolute top=225 left=500 height="350"}
-
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
-
-::: {style="font-size: 60%"}
-* A spreadsheet  
-* Scanned as a PDF
 :::
-
-![](images/lasd-2.png){.absolute top=225 left=500 height="350"}
-
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
-
-::: {style="font-size: 60%"}
-* A spreadsheet  
-* Scanned as a PDF
-* With dark text on a dark background 
-:::
-
-![](images/lasd-3.png){.absolute top=225 left=500 height="350"}
-
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
-
-::: {style="font-size: 60%"}
-* A spreadsheet  
-* Scanned as a PDF
-* With dark text on a dark background 
-* And a little blurry 
-:::
-
-![](images/lasd-4.png){.absolute top=225 left=500 height="350"}
-
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
-
-::: {style="font-size: 60%"}
-* A spreadsheet  
-* Scanned as a PDF
-* With dark text on a dark background 
-* And a little blurry 
-* And inconsistent rows and columns 
-:::
-
-![](images/lasd-5.png){.absolute top=225 left=500 height="350"}
-
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
-
-::: {style="font-size: 60%"}
-* A spreadsheet  
-* Scanned as a PDF
-* With dark text on a dark background 
-* And a little blurry 
-* And inconsistent rows and columns 
-* And the occasional coffee spill  
-:::
-
-![](images/lasd-6.png){.absolute top=225 left=500 height="350"}
-
-## What do I mean by the data <br> availability-accessibility gap? 
-
-**Example**: Collecting data on COVID in jails and prisons 
-
-::: {style="font-size: 60%; color: #9d9d9d"}
-* A spreadsheet  
-* Scanned as a PDF
-* With dark text on a dark background 
-* And a little blurry 
-* And inconsistent rows and columns 
-* And the occasional coffee spill  
-:::
-
-![](images/lasd-6.png){.absolute top=225 left=500 height="350"}
-
-**<span style="color:#1696d2;">Accessible to whom?</span>**
-
-## How does the portal bridge this gap? 
-
-::: {.incremental}
-
-* Provides a **<span style="color:#1696d2;">one-stop-shop</span>** for 100+ datasets released by government agencies and other institutions on schools, school districts, and colleges in the U.S. 
-* Includes harmonized **<span style="color:#1696d2;">data</span>** and **<span style="color:#1696d2;">metadata</span>** for each dataset
-* Makes it easier for users to look at **<span style="color:#1696d2;">trends over time</span>** and **<span style="color:#1696d2;">combine data</span>** from different sources 
-
-:::
-
-## How does the portal bridge this gap? 
-
-**Example**: How has tuition at my alma mater changed?
 
 ::: columns
 ::: {.column width="50%"}
-::: {.fragment fragment-index=1}
+::: {.fragment fragment-index=2}
 
 ![](images/carleton-campus.jpeg){height=300 fig-align="center"}
 
 :::
 :::
 ::: {.column width="50%"}
-::: {.fragment fragment-index=2}
+::: {.fragment fragment-index=3}
 
-![](images/line-chart-icon.png){height=300}
+![](images/line-chart-icon.png){height=300 fig-align="left"}
 
 :::
 :::
@@ -153,11 +70,21 @@ title-slide-attributes:
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-. . .
+. . . 
 
-::: {style="font-size: 55%"}
+![](images/likert.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
+
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 :::
 
@@ -165,114 +92,110 @@ title-slide-attributes:
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-::: {style="font-size: 55%"}
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 * Read the data documentation 
+:::
+
+![](images/likert-1.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
+
+::: {style="font-size: 60%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
 :::
 
 ![](images/likert-2.png){.absolute top=125 left=420 height="220"}
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-::: {style="font-size: 55%"}
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 * Read the data documentation 
 * Download data files for each year
+* Load each file into R or Python
+:::
+
+![](images/likert-2.png){.absolute top=125 left=420 height="220"}
+
+## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
+
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
+
+::: {style="font-size: 60%"}
+* Find the agency collecting the data
+* Read the data documentation 
+* Download data files for each year
+* Load each file into R or Python
+* Notice anomalies in the data 
 :::
 
 ![](images/likert-3.png){.absolute top=125 left=420 height="220"}
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-::: {style="font-size: 55%"}
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 * Read the data documentation 
 * Download data files for each year
 * Load each file into R or Python
+* Notice anomalies in the data 
+* Re-read the data documentation
 :::
 
-![](images/likert-2.png){.absolute top=125 left=420 height="220"}
+![](images/likert-3.png){.absolute top=125 left=420 height="220"}
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-::: {style="font-size: 55%"}
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 * Read the data documentation 
 * Download data files for each year
 * Load each file into R or Python
-* Notice a few anomalies
+* Notice anomalies in the data 
+* Re-read the data documentation
+* Update the code per the documentation
 :::
 
 ![](images/likert-4.png){.absolute top=125 left=420 height="220"}
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
-
-::: {style="font-size: 55%"}
-* Find the agency collecting the data
-* Read the data documentation 
-* Download data files for each year
-* Load each file into R or Python
-* Notice a few anomalies
-* Re-read the data documentation
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
 :::
 
-![](images/likert-5.png){.absolute top=125 left=420 height="220"}
-
-## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
-
-**Example**: How has tuition at my alma mater changed?
-
-::: {style="font-size: 55%"}
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 * Read the data documentation 
 * Download data files for each year
 * Load each file into R or Python
-* Notice a few anomalies
+* Notice anomalies in the data 
 * Re-read the data documentation
-* ~~Give up~~ Take an ice cream break 
-:::
-
-![](images/likert-2.png){.absolute top=125 left=420 height="220"}
-
-## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
-
-**Example**: How has tuition at my alma mater changed?
-
-::: {style="font-size: 55%"}
-* Find the agency collecting the data
-* Read the data documentation 
-* Download data files for each year
-* Load each file into R or Python
-* Notice a few anomalies
-* Re-read the data documentation
-* ~~Give up~~ Take an ice cream break 
-* Update the code per the documentation
-:::
-
-![](images/likert-3.png){.absolute top=125 left=420 height="220"}
-
-## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
-
-**Example**: How has tuition at my alma mater changed?
-
-::: {style="font-size: 55%"}
-* Find the agency collecting the data
-* Read the data documentation 
-* Download data files for each year
-* Load each file into R or Python
-* Notice a few anomalies
-* Re-read the data documentation
-* ~~Give up~~ Take an ice cream break 
 * Update the code per the documentation
 * Remember to repeat the process again next year
 :::
@@ -281,16 +204,17 @@ title-slide-attributes:
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-::: {style="font-size: 55%"}
+::: {style="font-size: 60%"}
 * Find the agency collecting the data
 * Read the data documentation 
 * Download data files for each year
 * Load each file into R or Python
-* Notice a few anomalies
+* Notice anomalies in the data 
 * Re-read the data documentation
-* ~~Give up~~ Take an ice cream break 
 * Update the code per the documentation
 * Remember to repeat the process again next year
 * (And hope nothing changes)
@@ -300,16 +224,17 @@ title-slide-attributes:
 
 ## **<span style="color:#1696d2;">Without</span>** the Education Data Portal... 
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-::: {style="font-size: 55%; color: #9d9d9d"}
+::: {style="font-size: 60%; color: #9d9d9d"}
 * Find the agency collecting the data
 * Read the data documentation 
 * Download data files for each year 
 * Load each file into R or Python
-* Notice a few anomalies  
+* Notice anomalies in the data 
 * Re-read the data documentation 
-* ~~Give up~~ Take an ice cream break 
 * Update the code per the documentation 
 * Remember to repeat the process again next year
 * (And hope nothing changes) 
@@ -317,18 +242,20 @@ title-slide-attributes:
 
 ![](images/likert-5.png){.absolute top=125 left=420 height="220"}
 
-**<span style="color:#1696d2;">This is tedious, error-prone, and simply not fun.</span>**
+**<span style="color:#1696d2;">This is tedious, error-prone, and not fun.</span>**
 
 ## Using the portal **<span style="color:#1696d2;">R package</span>**...
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
 . . . 
 
 ::: columns
 ::: {.column width="55%"}
 
-```{.r code-line-numbers="4"}
+```{.r code-line-numbers="4-13"}
 library(educationdata)
 
 # Get data 
@@ -361,12 +288,14 @@ data %>%
 
 ## Using the portal **<span style="color:#1696d2;">Python package</span>**...
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
 ::: columns
 ::: {.column width="55%"}
 
-```{.python code-line-numbers="4"}
+```{.python code-line-numbers="4-13"}
 import educationdata 
 
 # Get data 
@@ -395,22 +324,22 @@ data.plot.line(
 :::
 :::
 
-::: aside
-::: {style="color: #696969"}
+::: {style="font-size: 65%; color: #696969"}
 The Python package is not yet publicly available. 
-:::
 :::
 
 ---
 
 ## Using the portal **<span style="color:#1696d2;">Stata package</span>**...
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
 ::: columns
 ::: {.column width="55%"}
 
-```{.code code-line-numbers="2"}
+```{.code code-line-numbers="2-7"}
 * Get data 
 educationdata using ///
   "college ipeds academic-year-tuition", sub( ///
@@ -442,88 +371,135 @@ twoway (line tuition_fees_ft year)
 
 ---
 
-## Using the portal **<span style="color:#1696d2;">Data Explorer</span>**...
+## Using the portal **<span style="color:#1696d2;">Data Explorer</span>**
 
-**Example**: How has tuition at my alma mater changed?
+::: {style="font-size: 90%"}
+**Example**: How has tuition at my alma mater risen over my lifetime?
+:::
 
-{{< video images/explorer.mp4 width="550" height="480" start="2" >}}
+::: columns
+::: {.column width="55%"}
 
-## Why do I think the portal bridges this gap so effectively? 
+![](images/explorer.gif){.absolute top=130 left=0 width="560"}
+
+:::
+
+::: {.column width="45%"}
+
+![](images/carleton-tuition-plot-excel.png){.absolute top=200 left=600 width="480"}
+
+:::
+:::
+
+
+## How does the portal bridge this gap? 
+
+. . . 
 
 1. By focusing on the **<span style="color:#1696d2;">underlying API</span>**   
 2. By focusing on **<span style="color:#1696d2;">data documentation</span>** 
 
 ## The underlying API 
 
+Provides **<span style="color:#1696d2;">the foundation</span>** of the portal 
+
+::: columns
+::: {.column width="40%"}
+![](images/api.png){.absolute top=160 left=20 width="350"}
+:::
+
+::: {.column width="60%"}
+::: {.incremental}
+* 100+ data endpoints <br> (***with*** the data) 
+* 12+ metadata endpoints <br> (***about*** the data) 
+* All other tools, packages, and documentation are built from these endpoints 
+:::
+:::
+:::
+
+## Data documentation 
+
+Considered a **<span style="color:#1696d2;">first-order feature</span>** of the portal 
+
+::: columns
+::: {.column width="40%"}
+![](images/documentation.png){.absolute top=160 left=20 width="400"}
+:::
+
+::: {.column width="60%"} 
+::: {.incremental}
+* Written for ***both*** <br> humans and machines 
+* Provides the user with <br> details ***on demand*** 
+:::
+:::
+:::
+
+## Data documentation 
+
+Written for ***both*** humans and machines 
+
+::: columns
+::: {.column width="35%"}
+![](images/documentation-example.png){width="100%"}
+:::
+
+::: {.column width="65%"} 
+::: {.fragment fragment-index=1}
+```{.code code-line-numbers="7-14"}
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "variable": "urban_centric_locale",
+      "label": "Degree of urbanization (urban-centric locale)",
+      "format": "urban_centric_locale",
+      "data_type": "integer",
+      "values": "{
+          1: '1 - Large city', 
+          2: '2 - Midsize city', 
+          3: '3 - Urban fringe of large city', 
+          [...]
+      }",
+      [...]
+    }
+  ]
+}
+```
+:::
+:::
+:::
+
+::: {.fragment fragment-index=1}
+::: {style="font-size: 55%; color: #696969"}
+https://educationdata.urban.org/api/v1/api-variables/<span style="color:black;">?variable=urban_centric_locale</span> 
+:::
+:::
+
+## Data documentation {.nostretch}
+
+Provides the user with details ***on demand***
+
 ::: columns
 ::: {.column width="50%"}
-
-* 120+ data endpoints  
-(***with*** the data)   
-* 12+ metadata endpoints (***about*** the data) 
-* All other tools, packages, and documentation are built on these endpoints 
-
+![](images/details-on-demand-2.png){width="85%"}
 :::
-::: {.column width="50%"}
 
-![](images/api.png){.absolute top=40 left=550 width="400"}
-
+::: {.column width="50%"} 
+::: {.fragment fragment-index=1}
+![](images/details-on-demand-1.png){width="85%"}
+:::
 :::
 :::
 
-## Data documentation 
+## How does the portal bridge this gap? 
 
-::: columns
-::: {.column width="40%"}
-
-* Considered a <br> ***first-order*** priority
-* For humans and machines 
-* With details on demand 
-
-:::
-::: {.column width="60%"}
-
-![](images/documentation.png){.absolute top=100 left=390 width="620"}
-
-:::
+::: {style="font-size: 90%;"}
+By focusing on the **underlying API** and **data documentation** 
 :::
 
-## Data documentation 
-
-::: columns
-::: {.column width="40%"}
-
-* Considered a <br> ***first-order*** priority
-* For humans and machines 
-* With details on demand 
-
-:::
-::: {.column width="60%"}
-
-![](images/code-example.png){.absolute top=100 left=390 width="550"}
-
-:::
-:::
-
-## Data documentation 
-
-::: columns
-::: {.column width="40%"}
-
-* Considered a <br> ***first-order*** priority
-* For humans and machines 
-* With details on demand 
-
-:::
-::: {.column width="60%"}
-
-![](images/details-on-demand.png){.absolute top=90 left=390 width="450"}
-
-:::
-:::
-
-## Why do I think the portal bridges this gap so effectively? 
-
+::: {.fragment fragment-index=1}
 ::: columns
 ::: {.column width="33%"}
 
@@ -532,7 +508,7 @@ twoway (line tuition_fees_ft year)
 :::
 ::: {.column width="33%"}
 
-![](images/union.png){.absolute top=230 left=420 width="160"}
+![](images/teamwork.png){.absolute top=180 left=400 width="220"}
 
 :::
 ::: {.column width="33%"}
@@ -541,52 +517,115 @@ twoway (line tuition_fees_ft year)
 
 ::: 
 :::
-::: aside
-::: {style="color: #696969"}
+
+::: {style="font-size: 90%;"}
+Through collaboration with **<span style="color:#1696d2;">education</span>** and **<span style="color:#1696d2;">technology**</span> experts 
+:::
+
+::: {style="font-size: 70%; color: #696969"}
 Contributors: Erica Blom, Jay Carter, Ben Chartoff, David D'Orio, Graham MacDonald, Leonardo Restrepo, Kyle Ueyama, and Vivian Zheng 
 :::
 :::
 
 ## Why does bridging this gap matter? 
 
+. . . 
+
+Different people ask different questions.
+
 ::: columns
-::: {.column width="33%"}
-::: {.fragment fragment-index=1}
+::: {.column width="25%"}
 
-![](images/women-graduates.png){.absolute top=120 width="320"}
+![](images/women-graduates.png){.absolute top=180 width="260"}
+
+:::
+::: {.column width="25%"}
+
+![](images/data-science.png){width="210" fig-align="center"}
+
+:::
+::: {.column width="25%"}
+
+![](images/principal.png){width="225" fig-align="right"}
+
+:::
+::: {.column width="25%"}
+
+![](images/pbs.png){width="450" fig-align="right"}
+
+:::
+:::
+
+## Why does bridging this gap matter? {.nostretch}
+
+![](images/women-graduates.png){width="60%" fig-align="center"}
+
+## Why does bridging this gap matter? {.nostretch}
+
+![](images/data-science.png){width="40%" fig-align="center"}
+
+## Why does bridging this gap matter? {.nostretch}
+
+![](images/principal.png){width="40%" fig-align="center"}
+
+## Why does bridging this gap matter? {.nostretch}
+
+![](images/pbs.png){width="40%" fig-align="center"}
+
+---
+
+![](images/usage-plot.png){fig-align="center"} 
+
+## Why does bridging this gap matter? 
+
+::: columns
+::: {.column width="25%"}
+
+![](images/women-graduates.png){.absolute top=110 width="260"}
+
+:::
+::: {.column width="25%"}
+
+![](images/data-science.png){width="210" fig-align="center"}
+
+:::
+::: {.column width="25%"}
+
+![](images/principal.png){width="225" fig-align="right"}
+
+:::
+::: {.column width="25%"}
+
+![](images/pbs.png){width="450" fig-align="right"}
 
 :::
 :::
-::: {.column width="33%"}
-::: {.fragment fragment-index=2}
 
-![](images/data-science.png){width="260" fig-align="center"}
-
-:::
-:::
-::: {.column width="33%"}
-::: {.fragment fragment-index=3}
-
-![](images/principal.png){width="280" fig-align="right"}
-
-:::
-:::
-:::
-::: {.fragment fragment-index=4}
-
-**<span style="color:#1696d2;">Different people ask different—and important—questions.</span>** 
-
-:::
+By unlocking data for more people, we can allow more questions to find **<span style="color:#1696d2;">evidence-based answers</span>** and **<span style="color:#1696d2;">drive impact</span>**. 
 
 ## Get in touch 
 
+::: columns
+::: {.column width="50%"}
 ::: {style="font-size: 85%;"}
-* Access the portal: <https://educationdata.urban.org>  
-* Email the portal: educationdata@urban.org 
-* Email me: etyagi@urban.org 
+* **Access the portal**  
+<https://educationdata.urban.org>  
+
+* **Email the portal**  
+educationdata@urban.org 
+
+* **Email me**   
+etyagi@urban.org 
+
+* **Ask me a question**  
+<span style="color:#1696d2;">pos.it/slido-A</br>    
 
 :::
+:::
 
-![](images/educationdata-hex.png){.absolute top=190 left=500 width="400"}
+::: {.column width="50%"}
+![](images/educationdata-hex.png)
+:::
+:::
 
---- 
+---
