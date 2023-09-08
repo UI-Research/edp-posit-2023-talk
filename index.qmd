@@ -434,6 +434,12 @@ Considered a **<span style="color:#1696d2;">first-order feature</span>** of the 
 :::
 :::
 
+## Data documentation {.nostretch}
+
+Written for ***both*** humans and machines 
+
+![](images/documentation-example.png){width="50%"}
+
 ## Data documentation 
 
 Written for ***both*** humans and machines 
@@ -444,7 +450,6 @@ Written for ***both*** humans and machines
 :::
 
 ::: {.column width="65%"} 
-::: {.fragment fragment-index=1}
 ```{.code code-line-numbers="7-14"}
 {
   "count": 1,
@@ -469,12 +474,9 @@ Written for ***both*** humans and machines
 ```
 :::
 :::
-:::
 
-::: {.fragment fragment-index=1}
 ::: {style="font-size: 55%; color: #696969"}
 https://educationdata.urban.org/api/v1/api-variables/<span style="color:black;">?variable=urban_centric_locale</span> 
-:::
 :::
 
 ## Data documentation {.nostretch}
@@ -572,7 +574,7 @@ Different people ask different questions.
 
 ![](images/pbs.png){width="40%" fig-align="center"}
 
----
+## 4K people used the portal last month
 
 ![](images/usage-plot.png){fig-align="center"} 
 
