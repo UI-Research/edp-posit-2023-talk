@@ -16,10 +16,17 @@ title-slide-attributes:
     data-background-position: 2% 85%
 ---
 
+## The Education Data Portal bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>**. 
+
+::: {.incremental}
+1. What do I mean by the availability-accessibility gap?
+2. How does the portal bridge this gap so effectively?   
+3. Why does bridging this gap matter?   
+:::
+
 ## The Education Data Portal 
 
 ::: columns
-
 ::: {.column width="40%"}
 ![](images/educationdata-hex.png)
 :::
@@ -35,13 +42,7 @@ title-slide-attributes:
 :::
 :::
 
-## The Education Data Portal bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>**. 
-
-::: {.incremental}
-1. What do I mean by the availability-accessibility gap?
-2. How does the portal bridge this gap?   
-3. Why does bridging this gap matter?   
-:::
+---
 
 ## What do I mean by the availability-accessibility gap? 
 
@@ -392,7 +393,7 @@ twoway (line tuition_fees_ft year)
 :::
 
 
-## How does the portal bridge this gap? 
+## How does the portal bridge this gap so effectively? 
 
 . . . 
 
@@ -495,7 +496,7 @@ Provides the user with details ***on demand***
 :::
 :::
 
-## How does the portal bridge this gap? 
+## How does the portal bridge this gap so effectively? 
 
 ::: {style="font-size: 90%;"}
 By focusing on the **underlying API** and **data documentation** 
@@ -505,17 +506,17 @@ By focusing on the **underlying API** and **data documentation**
 ::: columns
 ::: {.column width="33%"}
 
-![](images/education.png){width="250" fig-align="right"}
+![](images/education.png){width="230" fig-align="right"}
 
 :::
 ::: {.column width="33%"}
 
-![](images/teamwork.png){.absolute top=180 left=400 width="220"}
+![](images/teamwork.png){.absolute top=240 left=400 width="200"}
 
 :::
 ::: {.column width="33%"}
 
-![](images/technology.png){width="250" fig-align="left"}
+![](images/technology.png){width="230" fig-align="left"}
 
 ::: 
 :::
@@ -524,8 +525,9 @@ By focusing on the **underlying API** and **data documentation**
 Through collaboration with **<span style="color:#1696d2;">education</span>** and **<span style="color:#1696d2;">technology**</span> experts 
 :::
 
-::: {style="font-size: 70%; color: #696969"}
-Contributors: Erica Blom, Jay Carter, Ben Chartoff, David D'Orio, Graham MacDonald, Leonardo Restrepo, Kyle Ueyama, and Vivian Zheng 
+::: {style="font-size: 55%; color: #696969"}
+* Education contributors: Erica Blom, Jay Carter, Leonardo Restrepo  
+* Technology contributors: Ben Chartoff, David D'Orio, Graham MacDonald, Kyle Ueyama, and Vivian Zheng 
 :::
 :::
 
