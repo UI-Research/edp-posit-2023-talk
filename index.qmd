@@ -57,7 +57,7 @@ title-slide-attributes:
 
 ::: {.column width="50%"}
 ::: {.fragment fragment-index=1}
-![](images/line-chart-icon.png){height=300 fig-align="left"}
+![](images/line-chart.png){height=300 fig-align="left"}
 :::
 :::
 :::
@@ -546,7 +546,7 @@ Different people ask different questions.
 
 ![](images/women-graduates-grey.png){.absolute top=160 left=690 width="270"}
 
-![](images/pbs-grey.png){.absolute top=350 left=710 width="250"}
+![](images/pbs-grey.png){.absolute top=350 left=700 width="250"}
 
 ## Why does bridging this gap matter? 
 
@@ -554,7 +554,7 @@ Different people ask different questions.
 
 ![](images/pbs.png){width="520"}
 
-![](images/principal-grey.png){.absolute top=160 left=710 width="250"}
+![](images/principal-grey.png){.absolute top=160 left=700 width="250"}
 
 ![](images/women-graduates-grey.png){.absolute top=410 left=690 width="270"}
 
