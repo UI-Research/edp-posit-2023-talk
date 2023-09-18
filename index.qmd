@@ -11,9 +11,9 @@ format:
     footer: <https://educationdata.urban.org> 
     include-after-body: format-title-page.html
 title-slide-attributes: 
-    data-background-image: images/urban-institute-logo-1.png
-    data-background-size: 25%
-    data-background-position: 2% 85%
+    data-background-image: images/urban-institute-logo-1.png,images/educationdata-hex.png
+    data-background-size: 25%,15%
+    data-background-position: 3% 85%,97% 84%
 ---
 
 ## The Education Data Portal bridges the gap between **<span style="color:#1696d2;">data availability</span>** and **<span style="color:#1696d2;">data accessibility</span>**. 
@@ -47,24 +47,17 @@ title-slide-attributes:
 ## What do I mean by the availability-accessibility gap? 
 
 ::: {style="font-size: 90%"}
-::: {.fragment fragment-index=1}
 **Example**: How has tuition at my alma mater risen over my lifetime?
-:::
 :::
 
 ::: columns
 ::: {.column width="50%"}
-::: {.fragment fragment-index=2}
-
 ![](images/carleton-campus.jpeg){height=300 fig-align="center"}
+:::
 
-:::
-:::
 ::: {.column width="50%"}
-::: {.fragment fragment-index=3}
-
+::: {.fragment fragment-index=1}
 ![](images/line-chart-icon.png){height=300 fig-align="left"}
-
 :::
 :::
 :::
@@ -278,10 +271,9 @@ data %>%
 ```
 
 :::
+
 ::: {.column width="45%"}
-
 ![](images/carleton-tuition-plot-r.png){.absolute top=200 left=580 width="500"}
-
 :::
 :::
 
@@ -318,10 +310,9 @@ data.plot.line(
 ```
 
 :::
+
 ::: {.column width="45%"}
-
 ![](images/carleton-tuition-plot-python.png){.absolute top=200 left=580 width="500"}
-
 :::
 :::
 
@@ -363,10 +354,9 @@ twoway (line tuition_fees_ft year)
 ```
 
 :::
+
 ::: {.column width="45%"}
-
 ![](images/carleton-tuition-plot-stata.png){.absolute top=200 left=600 width="480"}
-
 :::
 :::
 
@@ -380,15 +370,11 @@ twoway (line tuition_fees_ft year)
 
 ::: columns
 ::: {.column width="55%"}
-
 ![](images/explorer.gif){.absolute top=130 left=0 width="560"}
-
 :::
 
 ::: {.column width="45%"}
-
 ![](images/carleton-tuition-plot-excel.png){.absolute top=200 left=600 width="480"}
-
 :::
 :::
 
@@ -439,7 +425,7 @@ Considered a **<span style="color:#1696d2;">first-order feature</span>** of the 
 
 Written for ***both*** humans and machines 
 
-![](images/documentation-example.png){width="50%"}
+![](images/documentation-example.png){width="55%"}
 
 ## Data documentation 
 
@@ -451,11 +437,8 @@ Written for ***both*** humans and machines
 :::
 
 ::: {.column width="65%"} 
-```{.code code-line-numbers="7-14"}
+```{.code}
 {
-  "count": 1,
-  "next": null,
-  "previous": null,
   "results": [
     {
       "variable": "urban_centric_locale",
@@ -463,12 +446,12 @@ Written for ***both*** humans and machines
       "format": "urban_centric_locale",
       "data_type": "integer",
       "values": "{
-          1: '1 - Large city', 
-          2: '2 - Midsize city', 
-          3: '3 - Urban fringe of large city', 
-          [...]
-      }",
-      [...]
+        1: '1 - Large city', 
+        2: '2 - Midsize city', 
+        3: '3 - Urban fringe of large city', 
+        4: '4 - Urban fringe of midsize city',
+        [...]
+      }
     }
   ]
 }
@@ -477,7 +460,7 @@ Written for ***both*** humans and machines
 :::
 
 ::: {style="font-size: 55%; color: #696969"}
-https://educationdata.urban.org/api/v1/api-variables/<span style="color:black;">?variable=urban_centric_locale</span> 
+https://educationdata.urban.org/api/v1/api-variables/?<span style="color:#003B4F;">variable=urban_centric_locale</span> 
 :::
 
 ## Data documentation {.nostretch}
@@ -499,36 +482,32 @@ Provides the user with details ***on demand***
 ## How does the portal bridge this gap so effectively? 
 
 ::: {style="font-size: 90%;"}
-By focusing on the **underlying API** and **data documentation** 
+By focusing on the **underlying API** and **data documentation**...
 :::
 
-::: {.fragment fragment-index=1}
-::: columns
-::: {.column width="33%"}
-
-![](images/education.png){width="230" fig-align="right"}
-
-:::
-::: {.column width="33%"}
-
-![](images/teamwork.png){.absolute top=240 left=400 width="200"}
-
-:::
-::: {.column width="33%"}
-
-![](images/technology.png){width="230" fig-align="left"}
-
-::: 
-:::
+## How does the portal bridge this gap so effectively? 
 
 ::: {style="font-size: 90%;"}
-Through collaboration with **<span style="color:#1696d2;">education</span>** and **<span style="color:#1696d2;">technology**</span> experts 
+By focusing on the **underlying API** and **data documentation**... through collaboration with **<span style="color:#1696d2;">education</span>** and **<span style="color:#1696d2;">technology**</span> experts 
+:::
+
+::: columns
+::: {.column width="33%"}
+![](images/education.png){width="220" fig-align="right"}
+:::
+
+::: {.column width="33%"}
+![](images/teamwork.png){.absolute top=285 left=400 width="200"}
+:::
+
+::: {.column width="33%"}
+![](images/technology.png){width="210" fig-align="left"}
+::: 
 :::
 
 ::: {style="font-size: 55%; color: #696969"}
 * Education contributors: Erica Blom, Jay Carter, Leonardo Restrepo  
 * Technology contributors: Ben Chartoff, David D'Orio, Graham MacDonald, Kyle Ueyama, and Vivian Zheng 
-:::
 :::
 
 ## Why does bridging this gap matter? 
@@ -538,74 +517,64 @@ Through collaboration with **<span style="color:#1696d2;">education</span>** and
 Different people ask different questions.
 
 ::: columns
-::: {.column width="25%"}
-
-![](images/women-graduates.png){.absolute top=180 width="260"}
-
+::: {.column width="33%"}
+![](images/women-graduates.png){.absolute top=180 width="340"}
 :::
-::: {.column width="25%"}
-
-![](images/data-science.png){width="210" fig-align="center"}
-
+::: {.column width="33%"}
+![](images/principal.png){width="300" fig-align="right"}
 :::
-::: {.column width="25%"}
-
-![](images/principal.png){width="225" fig-align="right"}
-
-:::
-::: {.column width="25%"}
-
-![](images/pbs.png){width="450" fig-align="right"}
-
+::: {.column width="33%"}
+![](images/pbs.png){width="280" fig-align="right"}
 :::
 :::
 
-## Why does bridging this gap matter? {.nostretch}
+## Why does bridging this gap matter? 
 
-![](images/women-graduates.png){width="60%" fig-align="center"}
+Different people ask different questions.
 
-## Why does bridging this gap matter? {.nostretch}
+![](images/women-graduates.png){width="620"}
 
-![](images/data-science.png){width="40%" fig-align="center"}
+![](images/pbs-grey.png){.absolute top=140 left=710 width="250"}
 
-## Why does bridging this gap matter? {.nostretch}
+![](images/principal-grey.png){.absolute top=380 left=710 width="250"}
 
-![](images/principal.png){width="40%" fig-align="center"}
+## Why does bridging this gap matter? 
 
-## Why does bridging this gap matter? {.nostretch}
+Different people ask different questions.
 
-![](images/pbs.png){width="40%" fig-align="center"}
+![](images/principal.png){width="500"}
 
-## 4K people used the portal last month
+![](images/women-graduates-grey.png){.absolute top=160 left=690 width="270"}
 
-![](images/usage-plot.png){fig-align="center"} 
+![](images/pbs-grey.png){.absolute top=350 left=710 width="250"}
+
+## Why does bridging this gap matter? 
+
+Different people ask different questions.
+
+![](images/pbs.png){width="520"}
+
+![](images/principal-grey.png){.absolute top=160 left=710 width="250"}
+
+![](images/women-graduates-grey.png){.absolute top=410 left=690 width="270"}
+
+## Each month, thousands of users ask questions through the portal {.nostretch}
+
+![](images/usage-plot.png){width="95%" fig-align="left"} 
 
 ## Why does bridging this gap matter? 
 
 ::: columns
-::: {.column width="25%"}
-
-![](images/women-graduates.png){.absolute top=110 width="260"}
-
-:::
-::: {.column width="25%"}
-
-![](images/data-science.png){width="210" fig-align="center"}
-
-:::
-::: {.column width="25%"}
-
-![](images/principal.png){width="225" fig-align="right"}
-
-:::
-::: {.column width="25%"}
-
-![](images/pbs.png){width="450" fig-align="right"}
-
+::: {.column width="55%"}
+::: {style="font-size: 120%"}
+By unlocking data for more people, we can allow more questions to find **<span style="color:#1696d2;">evidence-based answers</span>** that **<span style="color:#1696d2;">drive impact</span>**. 
 :::
 :::
 
-By unlocking data for more people, we can allow more questions to find **<span style="color:#1696d2;">evidence-based answers</span>** and **<span style="color:#1696d2;">drive impact</span>**. 
+::: {.column width="45%"}
+![](images/questions.png)
+:::
+:::
 
 ## Get in touch 
 
@@ -628,7 +597,7 @@ etyagi@urban.org
 :::
 
 ::: {.column width="50%"}
-![](images/educationdata-hex.png)
+![](images/educationdata-hex.png){.absolute top=40 left=560 width="430"}
 :::
 :::
 
