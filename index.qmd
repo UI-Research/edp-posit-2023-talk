@@ -27,16 +27,19 @@ title-slide-attributes:
 ## The Education Data Portal 
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="36%"}
 ![](images/educationdata-hex.png)
 :::
 
-::: {.column width="60%"}
-::: {style="font-size: 88%"}
-* **What?** A freely available <br> **<span style="color:#1696d2;">one-stop-shop</span>** for 100+ datasets released by government agencies and other institutions on schools, districts, and colleges in the U.S. 
+::: {.column width="64%"}
+::: {style="font-size: 78%"}
+* **What?** A freely available **<span style="color:#1696d2;">one-stop-shop</span>** <br> for 100+ datasets released by government agencies and other institutions on schools, districts, and colleges in the U.S. 
 
 ::: {.fragment fragment-index=1}
-* **Why?** To make it easier for both <br> **<span style="color:#1696d2;">technical</span>** and **<span style="color:#1696d2;">non-technical users</span>** to look at trends over time and combine data from different sources 
+* **How?** **<span style="color:#1696d2;">Harmonized</span>** to account for changes <br> to data and file structures over time 
+:::
+::: {.fragment fragment-index=2}
+* **Why?** To make it easier for both **<span style="color:#1696d2;">technical</span>** and <br> **<span style="color:#1696d2;">non-technical users</span>** to look at trends over time and combine data from different sources 
 :::
 :::
 :::
@@ -277,6 +280,10 @@ data %>%
 :::
 :::
 
+::: {style="font-size: 65%; color: #696969"}
+The R package is available on CRAN. 
+:::
+
 ---
 
 ## Using the portal **<span style="color:#1696d2;">Python package</span>**...
@@ -360,6 +367,10 @@ twoway (line tuition_fees_ft year)
 :::
 :::
 
+::: {style="font-size: 65%; color: #696969"}
+The Stata package is available on SSC. 
+:::
+
 ---
 
 ## Using the portal **<span style="color:#1696d2;">Data Explorer</span>**
@@ -398,7 +409,7 @@ Provides **<span style="color:#1696d2;">the foundation</span>** of the portal
 ::: {.column width="60%"}
 ::: {.incremental}
 * 100+ data endpoints <br> (***with*** the data) 
-* 12+ metadata endpoints <br> (***about*** the data) 
+* 12+ metadata endpoints <br> (***about*** the data)  
 * All other tools, packages, and documentation are built from these endpoints 
 :::
 :::
@@ -482,12 +493,6 @@ Provides the user with details ***on demand***
 ## How does the portal bridge this gap so effectively? 
 
 ::: {style="font-size: 90%;"}
-By focusing on the **underlying API** and **data documentation**...
-:::
-
-## How does the portal bridge this gap so effectively? 
-
-::: {style="font-size: 90%;"}
 By focusing on the **underlying API** and **data documentation**... through collaboration with **<span style="color:#1696d2;">education</span>** and **<span style="color:#1696d2;">technology**</span> experts 
 :::
 
@@ -515,18 +520,6 @@ By focusing on the **underlying API** and **data documentation**... through coll
 . . . 
 
 Different people ask different questions.
-
-::: columns
-::: {.column width="33%"}
-![](images/women-graduates.png){.absolute top=180 width="340"}
-:::
-::: {.column width="33%"}
-![](images/principal.png){width="300" fig-align="right"}
-:::
-::: {.column width="33%"}
-![](images/pbs.png){width="280" fig-align="right"}
-:::
-:::
 
 ## Why does bridging this gap matter? 
 
@@ -589,9 +582,6 @@ educationdata@urban.org
 
 * **Email me**   
 etyagi@urban.org 
-
-* **Ask me a question**  
-<span style="color:#1696d2;">pos.it/slido-A</br>    
 
 :::
 :::
