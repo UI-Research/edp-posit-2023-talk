@@ -55,11 +55,13 @@ title-slide-attributes:
 
 ::: columns
 ::: {.column width="50%"}
+::: {.fragment fragment-index=1}
 ![](images/carleton-campus.jpeg){height=300 fig-align="center"}
+:::
 :::
 
 ::: {.column width="50%"}
-::: {.fragment fragment-index=1}
+::: {.fragment fragment-index=2}
 ![](images/line-chart.png){height=300 fig-align="left"}
 :::
 :::
